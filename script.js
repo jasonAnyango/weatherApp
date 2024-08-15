@@ -1,6 +1,6 @@
 // Function to fetch the weather data
 function getWeather() {
-    const apiKey = 'eb49afff3538bd48d8b2140d35dc02a2';
+    const apiKey = 'YOUR-API-KEY'; // Enter your actual API key from openweathermap.org here
     const city = document.getElementById('cityName').value;
 
     if (city === '') {
