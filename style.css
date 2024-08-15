@@ -16,7 +16,7 @@ body
 {
     margin: 20px auto;
     max-width: 400px;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 8px 32px rgba(0, 0, 0, 1);
@@ -76,13 +76,13 @@ button:active
     transform: scale(1);
 }
 
-.temperature p
+#temperature p
 {
     font-size: 60px;
     margin-top: -30px;
 }
 
-.info
+#info
 {
     font-size: 20px;
 }
@@ -95,7 +95,7 @@ button:active
     display: none;
 }
 
-.hourly
+#hourly
 {
     margin-top: 50px;
     overflow-x: auto;
@@ -112,7 +112,7 @@ button:active
     flex-direction: column;
     align-items: center;
     margin-right: 10px;
-    color: #fff;
+    color: #1c2732;
 }
 
 .hourlyItem img
