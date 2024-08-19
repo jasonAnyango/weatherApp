@@ -1,7 +1,6 @@
 // Function to fetch the weather data
 function getWeather() {
-    // API Key from OpenWeatherMap
-    const apiKey = 'YOUR-API-KEY'; // Enter your actual API key here
+    const apiKey = 'YOUR-API-KEY';
     const city = document.getElementById('cityName').value;
     // If the user has not entered a city...
     if (city === '') {
